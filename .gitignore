@@ -1,0 +1,47 @@
+# --- General ---
+.DS_Store
+Thumbs.db
+*.log
+.env
+.vercel
+
+# --- Frontend (React/Vite) ---
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.eslintcache
+
+# --- Backend (Python/FastAPI) ---
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/.venv/
+backend/venv/
+backend/env/
+backend/build/
+backend/dist/
+backend/*.egg-info/
+
+# --- Local Data & Generated Reports (Important for Security) ---
+# We ignore generated reports and user data to prevent accidental leaks
+reports/*.pdf
+backend/reports/
+backend/data/history_*.json
+backend/data/sessions.json
+backend/data/users.json
+data/*.json
+
+# --- Models ---
+# Large models are often ignored if using Git LFS, or kept if small
+# Keep small .joblib files for portability, or ignore if they are very large
+# backend/models/*.joblib
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- System Tray Build Artifacts ---
+backend/build/
+backend/dist/
