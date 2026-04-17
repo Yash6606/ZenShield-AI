@@ -1,0 +1,211 @@
+[
+    {
+        "id": 1,
+        "timestamp": "2026-04-17T12:53:53.449411",
+        "type": "training_success",
+        "result": {
+            "risk_score": 100,
+            "verdict": "Training Result",
+            "severity": "High",
+            "text_preview": "From: IT Service Desk <it-support@corp-update.net>\nSubject: CRITICAL: Mandatory Security Update Requ"
+        }
+    },
+    {
+        "id": 2,
+        "timestamp": "2026-04-17T12:54:03.568696",
+        "type": "training_failure",
+        "result": {
+            "risk_score": 0,
+            "verdict": "Training Result",
+            "severity": "Low",
+            "text_preview": "From: HR Dept <hr@zenshield-corp.ai>\nSubject: Congratulations on your Promotion!\n\nPlease review the "
+        }
+    },
+    {
+        "id": 3,
+        "timestamp": "2026-04-17T12:54:10.133814",
+        "type": "training_failure",
+        "result": {
+            "risk_score": 100,
+            "verdict": "Training Result",
+            "severity": "High",
+            "text_preview": "From: Amazon Security <security-amazon@verify-acct.com>\nSubject: Action Required: Payment Method Dec"
+        }
+    },
+    {
+        "id": 4,
+        "timestamp": "2026-04-17T12:54:14.509749",
+        "type": "training_failure",
+        "result": {
+            "risk_score": 100,
+            "verdict": "Training Result",
+            "severity": "High",
+            "text_preview": "From: IT Service Desk <it-support@corp-update.net>\nSubject: CRITICAL: Mandatory Security Update Requ"
+        }
+    },
+    {
+        "id": 5,
+        "timestamp": "2026-04-17T13:03:02.453013",
+        "type": "training_success",
+        "result": {
+            "risk_score": 100,
+            "verdict": "Training Result",
+            "severity": "High",
+            "text_preview": "From: IT Service Desk <it-support@corp-update.net>\nSubject: CRITICAL: Mandatory Security Update Requ"
+        }
+    },
+    {
+        "id": 6,
+        "timestamp": "2026-04-17T13:03:05.398983",
+        "type": "training_success",
+        "result": {
+            "risk_score": 0,
+            "verdict": "Training Result",
+            "severity": "Low",
+            "text_preview": "From: Training Dept <learning@zenshield-corp.ai>\nSubject: Annual Security Training Reminder\n\nHi Team"
+        }
+    },
+    {
+        "id": 7,
+        "timestamp": "2026-04-17T13:03:07.570489",
+        "type": "training_success",
+        "result": {
+            "risk_score": 100,
+            "verdict": "Training Result",
+            "severity": "High",
+            "text_preview": "From: Microsoft Admin <no-reply@microsoft-security-verify.com>\nSubject: Unusual Login Activity Detec"
+        }
+    },
+    {
+        "id": 8,
+        "timestamp": "2026-04-17T13:03:10.833794",
+        "type": "training_success",
+        "result": {
+            "risk_score": 0,
+            "verdict": "Training Result",
+            "severity": "Low",
+            "text_preview": "From: Ops Manager <ops@zenshield-corp.ai>\nSubject: Holiday Calendar 2024\n\nHi everyone, please find t"
+        }
+    },
+    {
+        "id": 9,
+        "timestamp": "2026-04-17T13:03:13.114926",
+        "type": "training_success",
+        "result": {
+            "risk_score": 100,
+            "verdict": "Training Result",
+            "severity": "High",
+            "text_preview": "From: Government Revenue <refunds@gov-tax-portal.biz>\nSubject: Final Notice: Your Tax Refund is Read"
+        }
+    },
+    {
+        "id": 10,
+        "timestamp": "2026-04-17T13:03:16.164002",
+        "type": "training_failure",
+        "result": {
+            "risk_score": 100,
+            "verdict": "Training Result",
+            "severity": "High",
+            "text_preview": "From: Netflix Help <support@netflix-billing.com>\nSubject: Your Membership is on Hold\n\nWe're having s"
+        }
+    },
+    {
+        "id": 11,
+        "timestamp": "2026-04-17T13:03:19.014899",
+        "type": "training_success",
+        "result": {
+            "risk_score": 100,
+            "verdict": "Training Result",
+            "severity": "High",
+            "text_preview": "From: Dropbox <no-reply@dropbox-docs.com>\nSubject: Venil shared 'Project_Blueprint.zip' with you\n\nHi"
+        }
+    },
+    {
+        "id": 12,
+        "timestamp": "2026-04-17T13:03:22.719974",
+        "type": "training_success",
+        "result": {
+            "risk_score": 0,
+            "verdict": "Training Result",
+            "severity": "Low",
+            "text_preview": "From: Slack Notifications <notifications@slack.com>\nSubject: New message from #general channel\n\n@Ven"
+        }
+    },
+    {
+        "id": 13,
+        "timestamp": "2026-04-17T13:03:25.067084",
+        "type": "training_failure",
+        "result": {
+            "risk_score": 0,
+            "verdict": "Training Result",
+            "severity": "Low",
+            "text_preview": "From: LinkedIn <member@linkedin-mail.net>\nSubject: You have a new invitation to connect\n\nJohn Doe (C"
+        }
+    },
+    {
+        "id": 14,
+        "timestamp": "2026-04-17T13:03:29.152572",
+        "type": "training_failure",
+        "result": {
+            "risk_score": 100,
+            "verdict": "Training Result",
+            "severity": "High",
+            "text_preview": "From: Fraud Department <no-reply@chase-alert-security.com>\nSubject: URGENT: Fraudulent Transfer of $"
+        }
+    },
+    {
+        "id": 15,
+        "timestamp": "2026-04-17T13:11:42.234563",
+        "type": "phishing",
+        "result": {
+            "text_preview": "Your bank account ending in 4821 has been temporar",
+            "risk_score": 39.45,
+            "severity": "Medium",
+            "verdict": "Safe"
+        }
+    },
+    {
+        "id": 16,
+        "timestamp": "2026-04-17T13:36:43.277183",
+        "type": "phishing",
+        "result": {
+            "text_preview": "Your bank account ending in 4821 has been temporar",
+            "risk_score": 39.45,
+            "severity": "Medium",
+            "verdict": "Safe"
+        }
+    },
+    {
+        "id": 17,
+        "timestamp": "2026-04-17T13:37:14.006321",
+        "type": "phishing",
+        "result": {
+            "text_preview": "https://mysy.gujarat.gov.in/frm_stu_gr.aspx",
+            "risk_score": 4.2,
+            "severity": "Low",
+            "verdict": "Safe"
+        }
+    },
+    {
+        "id": 18,
+        "timestamp": "2026-04-17T13:37:28.635532",
+        "type": "phishing",
+        "result": {
+            "text_preview": "http://mysy.gujarat.gov.in/frm_stu_gr.aspx",
+            "risk_score": 15.75,
+            "severity": "Low",
+            "verdict": "Safe"
+        }
+    },
+    {
+        "id": 19,
+        "timestamp": "2026-04-17T13:37:51.119946",
+        "type": "phishing",
+        "result": {
+            "text_preview": "http://gambling.in\n",
+            "risk_score": 15.45,
+            "severity": "Low",
+            "verdict": "Safe"
+        }
+    }
+]

@@ -1,0 +1,233 @@
+[
+    {
+        "id": 1,
+        "timestamp": "2026-04-17T11:42:05.296211",
+        "type": "training_success",
+        "result": {
+            "risk_score": 100,
+            "verdict": "Training Result",
+            "severity": "High",
+            "text_preview": "From: IT Service Desk <it-support@corp-update.net>\nSubject: CRITICAL: Mandatory Security Update Requ"
+        }
+    },
+    {
+        "id": 2,
+        "timestamp": "2026-04-17T11:42:19.920305",
+        "type": "training_success",
+        "result": {
+            "risk_score": 0,
+            "verdict": "Training Result",
+            "severity": "Low",
+            "text_preview": "From: HR Dept <hr@zenshield-corp.ai>\nSubject: Congratulations on your Promotion!\n\nPlease review the "
+        }
+    },
+    {
+        "id": 3,
+        "timestamp": "2026-04-17T11:42:23.190341",
+        "type": "training_failure",
+        "result": {
+            "risk_score": 100,
+            "verdict": "Training Result",
+            "severity": "High",
+            "text_preview": "From: Amazon Security <security-amazon@verify-acct.com>\nSubject: Action Required: Payment Method Dec"
+        }
+    },
+    {
+        "id": 4,
+        "timestamp": "2026-04-17T11:51:33.958554",
+        "type": "phishing",
+        "result": {
+            "text_preview": "Your bank account ending in 4821 has been temporar",
+            "risk_score": 41.43,
+            "severity": "Medium",
+            "verdict": "Safe"
+        }
+    },
+    {
+        "id": 5,
+        "timestamp": "2026-04-17T11:53:53.704161",
+        "type": "phishing",
+        "result": {
+            "text_preview": "https://mysy.gujarat.gov.in/frm_stu_gr.aspx",
+            "risk_score": 5.6,
+            "severity": "Low",
+            "verdict": "Safe"
+        }
+    },
+    {
+        "id": 6,
+        "timestamp": "2026-04-17T11:54:02.702902",
+        "type": "phishing",
+        "result": {
+            "text_preview": "http://mysy.gujarat.gov.in/frm_stu_gr.aspx",
+            "risk_score": 21.25,
+            "severity": "Low",
+            "verdict": "Safe"
+        }
+    },
+    {
+        "id": 7,
+        "timestamp": "2026-04-17T11:54:47.996871",
+        "type": "phishing",
+        "result": {
+            "text_preview": "From: PayPal Security Team security-update@paypaI-",
+            "risk_score": 38.87,
+            "severity": "Medium",
+            "verdict": "Safe"
+        }
+    },
+    {
+        "id": 8,
+        "timestamp": "2026-04-17T12:02:47.687570",
+        "type": "phishing",
+        "result": {
+            "text_preview": "From: PayPal Security Team security-update@paypaI-",
+            "risk_score": 38.87,
+            "severity": "Medium",
+            "verdict": "Safe"
+        }
+    },
+    {
+        "id": 9,
+        "timestamp": "2026-04-17T12:07:56.232451",
+        "type": "phishing",
+        "result": {
+            "text_preview": "From: PayPal Security Team security-update@paypaI-",
+            "risk_score": 38.87,
+            "severity": "Medium",
+            "verdict": "Safe"
+        }
+    },
+    {
+        "id": 10,
+        "timestamp": "2026-04-17T12:16:02.407772",
+        "type": "phishing",
+        "result": {
+            "text_preview": "From: PayPal Security Team security-update@paypaI-",
+            "risk_score": 38.87,
+            "severity": "Medium",
+            "verdict": "Safe"
+        }
+    },
+    {
+        "id": 11,
+        "timestamp": "2026-04-17T12:16:35.737446",
+        "type": "phishing",
+        "result": {
+            "text_preview": "Your bank account ending in 4821 has been temporar",
+            "risk_score": 41.43,
+            "severity": "Medium",
+            "verdict": "Safe"
+        }
+    },
+    {
+        "id": 12,
+        "timestamp": "2026-04-17T12:17:34.422609",
+        "type": "phishing",
+        "result": {
+            "text_preview": "Your bank account ending in 4821 has been temporar",
+            "risk_score": 39.45,
+            "severity": "Medium",
+            "verdict": "Safe"
+        }
+    },
+    {
+        "id": 13,
+        "timestamp": "2026-04-17T12:17:43.376519",
+        "type": "phishing",
+        "result": {
+            "text_preview": "From: PayPal Security Team security-update@paypaI-",
+            "risk_score": 88.0,
+            "severity": "High",
+            "verdict": "Safe"
+        }
+    },
+    {
+        "id": 14,
+        "timestamp": "2026-04-17T12:18:02.584819",
+        "type": "training_success",
+        "result": {
+            "risk_score": 100,
+            "verdict": "Training Result",
+            "severity": "High",
+            "text_preview": "From: IT Service Desk <it-support@corp-update.net>\nSubject: CRITICAL: Mandatory Security Update Requ"
+        }
+    },
+    {
+        "id": 15,
+        "timestamp": "2026-04-17T12:18:07.781767",
+        "type": "training_success",
+        "result": {
+            "risk_score": 0,
+            "verdict": "Training Result",
+            "severity": "Low",
+            "text_preview": "From: HR Dept <hr@zenshield-corp.ai>\nSubject: Congratulations on your Promotion!\n\nPlease review the "
+        }
+    },
+    {
+        "id": 16,
+        "timestamp": "2026-04-17T12:18:11.852454",
+        "type": "training_success",
+        "result": {
+            "risk_score": 100,
+            "verdict": "Training Result",
+            "severity": "High",
+            "text_preview": "From: Amazon Security <security-amazon@verify-acct.com>\nSubject: Action Required: Payment Method Dec"
+        }
+    },
+    {
+        "id": 17,
+        "timestamp": "2026-04-17T12:18:15.207322",
+        "type": "training_success",
+        "result": {
+            "risk_score": 100,
+            "verdict": "Training Result",
+            "severity": "High",
+            "text_preview": "From: IT Service Desk <it-support@corp-update.net>\nSubject: CRITICAL: Mandatory Security Update Requ"
+        }
+    },
+    {
+        "id": 18,
+        "timestamp": "2026-04-17T12:18:18.110932",
+        "type": "training_failure",
+        "result": {
+            "risk_score": 0,
+            "verdict": "Training Result",
+            "severity": "Low",
+            "text_preview": "From: HR Dept <hr@zenshield-corp.ai>\nSubject: Congratulations on your Promotion!\n\nPlease review the "
+        }
+    },
+    {
+        "id": 19,
+        "timestamp": "2026-04-17T12:24:35.224863",
+        "type": "training_failure",
+        "result": {
+            "risk_score": 100,
+            "verdict": "Training Result",
+            "severity": "High",
+            "text_preview": "From: Amazon Security <security-amazon@verify-acct.com>\nSubject: Action Required: Payment Method Dec"
+        }
+    },
+    {
+        "id": 20,
+        "timestamp": "2026-04-17T12:24:43.071493",
+        "type": "training_failure",
+        "result": {
+            "risk_score": 100,
+            "verdict": "Training Result",
+            "severity": "High",
+            "text_preview": "From: IT Service Desk <it-support@corp-update.net>\nSubject: CRITICAL: Mandatory Security Update Requ"
+        }
+    },
+    {
+        "id": 21,
+        "timestamp": "2026-04-17T12:24:52.078516",
+        "type": "training_success",
+        "result": {
+            "risk_score": 0,
+            "verdict": "Training Result",
+            "severity": "Low",
+            "text_preview": "From: HR Dept <hr@zenshield-corp.ai>\nSubject: Congratulations on your Promotion!\n\nPlease review the "
+        }
+    }
+]
