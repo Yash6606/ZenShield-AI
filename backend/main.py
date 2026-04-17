@@ -188,6 +188,32 @@ async def get_awareness_report(token: Optional[str] = None):
     }
     filename, path = reporting_service.generate_threat_report(report_data)
     return FileResponse(path, filename=filename)
+    from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
+app = FastAPI()
+
+# ADD THIS HERE
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://zenshield.vercel.app",
+        "http://localhost:5173",
+        "http://localhost:3000",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Then your routes below
+@app.get("/")
+def root():
+    return {"message": "Backend running"}
+
+@app.get("/health")
+def health():
+    return {"status": "ok"}
 
 if __name__ == "__main__":
     import uvicorn
